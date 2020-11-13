@@ -1,0 +1,9 @@
+# Nov 18th meeting - Assign tasks between members and sketch a plan
+- Research previous work and references, 
+- problem description and goal, 
+- the data sets you will use, 
+- the method/approach you propose, 
+- evaluation criteria,
+
+# Nov 23rd deadline: Write up 1 page summary of problem: 
+
