@@ -3,13 +3,24 @@
 - [x] Decide datasets to be used
 
 # Nov 18th meeting 
-- [ ] Small analysis of data
-- [ ] Define research questions and evaluation methods
+- [x] Small analysis of data
+- [x] Define research questions and evaluation methods
 
-# Nov 23rd deadline: Write up 1 page summary of problem: 
-- Research previous work and references, 
-- problem description and goal, 
-- the data sets you will use, 
-- the method/approach you propose, 
-- evaluation criteria,
+# Nov 21th meeting 
+- [x] Daniel - Research related works
+- [x] João - Initial analysis of time trends in 311 data
+- [x] Bruno - Initial analysis of joining with income data
+- [x] All - Write up 1 page summary of problem
+
+
+# Nov/23 - Nov/29
+- Bruno - Analysis of income data
+- Daniel - Analysis of 311 data
+- João - Spatial aggregation of Datasets
+
+# Nov/30 - Dec/7
+- Bruno - Evaluation of visualizations with users
+- Daniel - Implementation of final visualizations
+- João - Prototype different visualizations
+
 
