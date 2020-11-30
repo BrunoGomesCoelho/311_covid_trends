@@ -8,3 +8,5 @@ The raw 311 dataset is on HFS at `/user/jr4964/final-project/complaints.csv` and
 - Zip code matches the regex `^1[0-9]{4}$`, which matches strings that only contain a 1 followed by four digits.
 - Creation data is in the range January 1st, 2010 - October 31st, 2020.
 - Complaint type is not empty.
+
+`/user/djk525/big-data/project/data/complaints_by_zip_day.csv` and `/user/djk525/big-data/project/data/complaints_by_zip_day_sample.csv` have the number of complaints on each day for each zip code.
