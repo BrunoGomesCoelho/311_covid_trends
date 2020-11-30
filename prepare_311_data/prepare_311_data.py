@@ -7,8 +7,7 @@ def csv_to_df(spark):
 
 
 def output(df):
-    df.select("*").write.save(sys.argv[2], format='csv',
-                              emptyValue='null', header=True)
+    df.select("*").write.save(sys.argv[2], format='csv', emptyValue='null')
 
 
 def main():
@@ -18,7 +17,7 @@ def main():
 
     df.createOrReplaceTempView('complaints')
 
-    df = spark.sql("""SELECT TO_DATE(`Created Date`, 'MM/dd/yyyy hh:mm:ss a') AS date,
+    df = spark.sql("""SELECT `Created Date` AS date,
                              `Complaint Type` AS type,
                              Descriptor AS descriptor,
                              `Incident Zip` AS zip
