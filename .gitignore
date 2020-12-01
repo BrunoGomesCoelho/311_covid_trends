@@ -131,3 +131,5 @@ dmypy.json
 # Added
 *.crc
 prepare_311_data/*.csv
+prepare_311_data/clear_old_data.sh
+prepare_311_data/scrap

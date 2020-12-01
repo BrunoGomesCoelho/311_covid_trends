@@ -18,11 +18,11 @@ def main():
     df.createOrReplaceTempView('complaints')
 
     df = spark.sql("""SELECT DATE_TRUNC('DD', TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a')) as day,
-                             zip,
+                             zcta,
                              COUNT(*) as num_complaints
                         FROM complaints
-                    GROUP BY DATE_TRUNC('DD', TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a')), zip
-                    ORDER BY day, zip
+                    GROUP BY DATE_TRUNC('DD', TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a')), zcta
+                    ORDER BY day, zcta
                    """)
 
     output(df)
