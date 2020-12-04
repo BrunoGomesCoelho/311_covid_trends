@@ -9,3 +9,11 @@ The raw 311 dataset is on HFS at `/user/jr4964/final-project/complaints.csv` and
 - Complaint type is not empty.
 
 `/user/djk525/big-data/project/data/complaints_by_zip_day.csv` and `/user/djk525/big-data/project/data/complaints_by_zip_day_sample.csv` have the number of complaints on each day for each zcta.
+
+The file under /user/jr4964/final-project/complaint_census_join.csv contains the result of an inner join operation between the census and 311 datasets. Both datasets were joined on ZCTA key. The result dataset follows the schema below:
+
+
+attribute name | zcta | complaint datetime | complaint type | complaint descriptor | geoID | median earning | full time median earning | full time mean
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+datatype | number | datetime (%d/%m/%Y %H:%M:%S)  | string | string | string | number | number | number 
+
