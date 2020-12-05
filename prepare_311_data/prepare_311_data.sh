@@ -23,7 +23,7 @@ spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python \
 sed -i '1s/^/date,type,descriptor,zcta\n/' $LOCAL_PATH
 
 # remove .crc file to prevent checksum error when putting file back to hfs
-rm $LOCAL_PATH".crc"
+rm "."$LOCAL_PATH".crc"
 
 /usr/bin/hadoop fs -rm -r $OUTPUT_PATH
 /usr/bin/hadoop fs -put $LOCAL_PATH $OUTPUT_PATH
