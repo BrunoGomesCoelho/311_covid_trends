@@ -10,7 +10,7 @@ The raw 311 dataset is on HFS at `/user/jr4964/final-project/complaints.csv`. Th
 
 ## 311 and Census Data
 
-The file under `/user/jr4964/final-project/complaint_census_join.csv` contains the result of an inner join operation between the census and 311 datasets. Both datasets were joined on ZCTA key. The result dataset follows the schema below:
+The file under `/user/djk525/big-data/project/data/complaint_census_join.csv` contains the result of an inner join operation between the census and 311 datasets. Both datasets were joined on ZCTA key. The result dataset follows the schema below:
 
 
 column                  | format
@@ -26,12 +26,14 @@ full time mean earning  | number
 
 ### Aggregation
 
+We aggregated the number of total complaints and number of noise complaints by day alone and by both day and zip code for March 1st - October 31st in 2019 and 2020.
+
 `/user/djk525/big-data/project/data/complaints_census_by_zip_day.csv` has the following schema:
 
 column                  | format
 -----                   |-------
 zcta                    | number
-day                     | date (yyyy/MM/dd)
+day                     | date (yyyy-MM-dd)
 num_complaints          | number
 num_noise_complaints    | number
 geoID                   | string
@@ -44,6 +46,6 @@ full_time_mean_earning  | number
 
 column                  | format
 -----                   |-------
-day                     | date (yyyy/MM/dd)
+day                     | date (yyyy-MM-dd)
 num_complaints          | number
 num_noise_complaints    | number

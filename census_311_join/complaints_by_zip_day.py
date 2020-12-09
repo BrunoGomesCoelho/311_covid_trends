@@ -25,7 +25,7 @@ def main():
     df_zip_day = spark.sql("""
                       SELECT
                              zcta,
-                             DATE_FORMAT(DATE_TRUNC('DD', TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a')), 'yyyy/MM/dd') AS day,
+                             DATE_FORMAT(DATE_TRUNC('DD', TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a')), 'yyyy-MM-dd') AS day,
                              COUNT(*) AS num_complaints,
                              SUM(CASE WHEN LOWER(type) LIKE '%noise%' THEN 1 ELSE 0 END) AS num_noise_complaints,
                              FIRST(geoID),
@@ -33,9 +33,9 @@ def main():
                              FIRST(full_time_median_earning),
                              FIRST(full_time_mean_earning)
                         FROM complaints
-                       WHERE TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a') >= TO_DATE('01/01/2019', 'MM/dd/yyyy')
+                       WHERE TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a') >= TO_DATE('03/01/2019', 'MM/dd/yyyy')
                          AND TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a') <  TO_DATE('11/01/2019', 'MM/dd/yyyy')
-                          OR TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a') >= TO_DATE('01/01/2020', 'MM/dd/yyyy')
+                          OR TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a') >= TO_DATE('03/01/2020', 'MM/dd/yyyy')
                          AND TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a') <  TO_DATE('11/01/2020', 'MM/dd/yyyy')
                     GROUP BY DATE_TRUNC('DD', TO_DATE(date, 'MM/dd/yyyy hh:mm:ss a')), zcta
                     ORDER BY zcta, day
