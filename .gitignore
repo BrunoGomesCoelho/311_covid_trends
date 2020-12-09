@@ -133,5 +133,7 @@ dmypy.json
 # Added
 *.crc
 prepare_311_data/*.csv
+census_311_join/*.csv
 prepare_311_data/clear_old_data.sh
-prepare_311_data/scrap
+census_311_join/clear_old_data.sh
+*/scrap
