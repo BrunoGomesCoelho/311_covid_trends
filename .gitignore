@@ -142,4 +142,7 @@ exploration/complaints_by_day.csv
 
 data/complaints_by_day.csv
 data/complaints_census_by_zip_day.csv
-data/us-counties.csv
+data/nyc-geojson.json
+data/zip_zcta.csv
+
+.DS_Store
