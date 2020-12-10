@@ -5,6 +5,7 @@ if [ $# -eq 0 ]
 		LOCAL_PATH='complaint_census_join.csv'
 	else
 		OUTPUT_PATH=$1
+		LOCAL_PATH='complaint_census_join_cmp.csv'
 fi
 
 module load python/gnu/3.6.5

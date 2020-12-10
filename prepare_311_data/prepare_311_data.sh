@@ -10,8 +10,11 @@ if [ $# -eq 0 ]
 		LOCAL_PATH="311_reduced_pipeline_cmp.csv"
 fi
 
+module load python/gnu/3.6.5
+module load spark/2.4.0
 
 time spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python \
+    --conf spark.ui.port=4050 \
     prepare_311_data.py \
     /user/jr4964/final-project/complaints.csv \
     /user/djk525/big-data/project/data/zip_zcta.csv \

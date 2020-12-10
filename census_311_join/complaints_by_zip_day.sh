@@ -12,6 +12,9 @@ if [ $# -eq 0 ]
 		LOCAL_PATH_DAY="complaints_by_day_cmp.csv"
 fi
 
+module load python/gnu/3.6.5
+module load spark/2.4.0
+
 time spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python \
     complaints_by_zip_day.py \
     /user/djk525/big-data/project/data/complaint_census_join.csv \
