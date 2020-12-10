@@ -137,3 +137,4 @@ census_311_join/*.csv
 prepare_311_data/clear_old_data.sh
 census_311_join/clear_old_data.sh
 */scrap
+covid/us-counties.csv
