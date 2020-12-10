@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T17:49:57.515Z" agent="5.0 (X11)" etag="u3eJZoxrf63cSiL54W7o" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-10T21:00:45.772Z" agent="5.0 (X11)" etag="hWRh0Rg-N-MQGOhS34K2" version="14.0.0" type="github">
   <diagram id="gOXbbLbBrHLEqTpnTvzm" name="Page-1">
-    <mxGraphModel dx="1099" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bKgu3u-lsuvOuRAf6VTa-37" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="120" width="640" height="300" as="geometry" />
+          <mxGeometry x="90" y="120" width="640" height="270" as="geometry" />
         </mxCell>
         <mxCell id="bKgu3u-lsuvOuRAf6VTa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bKgu3u-lsuvOuRAf6VTa-2" target="bKgu3u-lsuvOuRAf6VTa-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="bKgu3u-lsuvOuRAf6VTa-4" value="Zip-ZCTA mapping" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="270" y="130" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ivacXZoAtBD-5RKts1cs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bKgu3u-lsuvOuRAf6VTa-5" target="bKgu3u-lsuvOuRAf6VTa-36">
+        <mxCell id="ivacXZoAtBD-5RKts1cs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bKgu3u-lsuvOuRAf6VTa-5" target="bKgu3u-lsuvOuRAf6VTa-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bKgu3u-lsuvOuRAf6VTa-5" value="Per zip/day" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -34,8 +34,8 @@
         <mxCell id="bKgu3u-lsuvOuRAf6VTa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bKgu3u-lsuvOuRAf6VTa-6" target="bKgu3u-lsuvOuRAf6VTa-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bKgu3u-lsuvOuRAf6VTa-6" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.filter" parent="1" vertex="1">
-          <mxGeometry x="115" y="237.5" width="50" height="45" as="geometry" />
+        <mxCell id="bKgu3u-lsuvOuRAf6VTa-6" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.filter" parent="1" vertex="1">
+          <mxGeometry x="103.33" y="230" width="66.67" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bKgu3u-lsuvOuRAf6VTa-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;strokeColor=#000000;" parent="1" source="bKgu3u-lsuvOuRAf6VTa-7" target="bKgu3u-lsuvOuRAf6VTa-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -52,20 +52,29 @@
         <mxCell id="bKgu3u-lsuvOuRAf6VTa-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;strokeColor=#000000;" parent="1" source="bKgu3u-lsuvOuRAf6VTa-30" target="bKgu3u-lsuvOuRAf6VTa-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bKgu3u-lsuvOuRAf6VTa-30" value="&lt;div&gt;group&lt;/div&gt;&lt;div&gt;filter noise&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="bKgu3u-lsuvOuRAf6VTa-30" value="&lt;div&gt;Filter and aggregate&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="273.75" width="100" height="97.5" as="geometry" />
         </mxCell>
         <mxCell id="bKgu3u-lsuvOuRAf6VTa-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" parent="1" vertex="1">
-          <mxGeometry x="850" y="292.5" width="60" height="60" as="geometry" />
+          <mxGeometry x="815" y="292.5" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivacXZoAtBD-5RKts1cs-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://spark.apache.org/docs/latest/api/python/_static/spark-logo-hd.png;" vertex="1" parent="1">
-          <mxGeometry x="590" y="129.99999999999994" width="124" height="79.57" as="geometry" />
+        <mxCell id="ivacXZoAtBD-5RKts1cs-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://spark.apache.org/docs/latest/api/python/_static/spark-logo-hd.png;" parent="1" vertex="1">
+          <mxGeometry x="500" y="120.42999999999995" width="124" height="79.57" as="geometry" />
         </mxCell>
-        <mxCell id="ivacXZoAtBD-5RKts1cs-5" value="&lt;h1&gt;Processing&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="430" width="190" height="120" as="geometry" />
+        <mxCell id="ivacXZoAtBD-5RKts1cs-5" value="&lt;h1&gt;Processing&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="390" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ivacXZoAtBD-5RKts1cs-6" value="&lt;h1&gt;Analysis and visualizations&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="785" y="420" width="190" height="120" as="geometry" />
+        <mxCell id="ivacXZoAtBD-5RKts1cs-6" value="&lt;h1&gt;Analysis and visualizations&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="750" y="390" width="190" height="68.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-PfhaH_p1bHN7OEi4aIh-2" value="/&lt;br&gt;" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;fontSize=75;align=left;verticalAlign=middle;html=1;" vertex="1" parent="1">
+          <mxGeometry x="623" y="118" width="86" height="74.58" as="geometry" />
+        </mxCell>
+        <mxCell id="-PfhaH_p1bHN7OEi4aIh-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="649" y="130.21" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-PfhaH_p1bHN7OEi4aIh-8" value="Filter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="118.28" y="230" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
