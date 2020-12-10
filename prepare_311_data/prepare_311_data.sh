@@ -11,7 +11,7 @@ if [ $# -eq 0 ]
 fi
 
 
-spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python \
+time spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python \
     prepare_311_data.py \
     /user/jr4964/final-project/complaints.csv \
     /user/djk525/big-data/project/data/zip_zcta.csv \
