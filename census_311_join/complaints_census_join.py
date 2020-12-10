@@ -19,9 +19,10 @@ def formatCensusTuple(row):
   return (key, value)
 
 def formatComplaintsTuple(row):
-
+  # 0: date, 1: type, 2: descriptor, 3: zcta
   key = '%s' % row[3]
-  value = '%s' % ( row[0] + ',' + row[1] + ',' + row[2] )
+  # put double quotes around descriptor to handle commas in it
+  value = '%s' % ( row[0] + ',' + row[1] + ',"' + row[2] + '"')
 
   return (key, value)
 

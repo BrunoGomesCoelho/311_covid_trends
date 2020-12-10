@@ -14,7 +14,7 @@ fi
 
 spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python \
     complaints_by_zip_day.py \
-    /user/jr4964/final-project/complaint_census_join.csv \
+    /user/djk525/big-data/project/data/complaint_census_join.csv \
     $OUTPUT_PATH_ZIP_DAY \
     $OUTPUT_PATH_DAY
 
