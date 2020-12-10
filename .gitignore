@@ -139,3 +139,7 @@ census_311_join/clear_old_data.sh
 */scrap
 exploration/us-counties.csv
 exploration/complaints_by_day.csv
+
+data/complaints_by_day.csv
+data/complaints_census_by_zip_day.csv
+data/us-counties.csv
