@@ -54,7 +54,7 @@ num_noise_complaints    | number
 
 ### Links
 
-Our small and aggregated datasets are available on [Google Drive](https://drive.google.com/file/d/1L5kfekprklV9Np3720pa6qYUCJT7BYrf/view?usp=sharing) and on GitHub Gist:
+Our small and aggregated datasets are available on [Google Drive](https://drive.google.com/drive/folders/1hjlQlwYxLpaHOl82WMfNiV7az_ZpZ89i?usp=sharing) and on GitHub Gist:
 
 - [zip_zcta.csv](https://gist.github.com/DanielKerrigan/b774aa655e3ccb320cd3560863ed3d3d)
 - [nyc-geojson.json](https://gist.github.com/DanielKerrigan/a726b9dd2db50a90b308f7a9915db531)
