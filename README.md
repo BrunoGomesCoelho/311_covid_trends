@@ -11,7 +11,7 @@ An analysis of trends during COVID from the 311 NY complaints dataset.
 ├── census_analysis/      				<- Visualizations of filtered data
 ├── prepare_311_data/      		
 │   ├──  prepare_311_data.py/.sh     			<- Preprocessing of the 311 data with pyspark
-│   └──  prepare_data_pandas_version.ipynb  		<-Preprocessing of the 311 data with pandas
+│   └──  prepare_data_pandas_version.ipynb  		<- Preprocessing of the 311 data with pandas
 │
 └── census_311_join/      	
     ├──  complaints_census_join.py/.sh     		<- Joins the 311 data with the census
