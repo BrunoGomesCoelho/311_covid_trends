@@ -1,6 +1,26 @@
 # 311_covid_trends
 An analysis of trends during COVID from the 311 NY complaints dataset.
 
+## Project structure
+
+```
+│
+├── utils.py      		  			<- General python functions used
+├── Clustering.ipynb      		  		<- Clustering and projection notebook
+├── data/      		  				<- Folder for small data files used
+├── census_analysis/      				<- Visualizations of filtered data
+├── prepare_311_data/      		
+│   ├──  prepare_311_data.py/.sh     			<- Preprocessing of the 311 data with pyspark
+│   └──  prepare_data_pandas_version.ipynb  		<-Preprocessing of the 311 data with pandas
+│
+└── census_311_join/      	
+    ├──  complaints_census_join.py/.sh     		<- Joins the 311 data with the census
+    ├──  complaints_census_join_pandas_version.ipynb    <- Joins the 311 data with the census with pandas
+    ├──  complaints_census_by_zip_day.py/sh  		<- Aggregates the data at zip and day level
+    └──  complaints_census_by_zip_day.ipynb  		<- Aggregates the data at zip and day level with pandas
+```
+
+
 ## Data
 
 ### 311 Data
@@ -61,3 +81,4 @@ Our small and aggregated datasets are available on [Google Drive](https://drive.
 - [covid.csv](https://gist.github.com/DanielKerrigan/f7baab69fa175bfbd5d10e38ad85b1b4)
 - [complaints_census_by_zip_day.csv](https://gist.github.com/DanielKerrigan/c0c8bd921a052bf6cdf87343773202ba)
 - [complaints_by_day.csv](https://gist.github.com/DanielKerrigan/fe5ab6e81f5ce6127f05d79933bdf893)
+
